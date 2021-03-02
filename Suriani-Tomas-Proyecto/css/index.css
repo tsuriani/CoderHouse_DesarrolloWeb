@@ -1,0 +1,88 @@
+/*Google Fonts*/
+/*https://fonts.google.com/specimen/Akaya+Telivigala?preview.text_type=custom&sidebar.open=true&selection.family=Akaya+Telivigala*/
+body {
+	font-family: 'Akaya Telivigala', cursive;
+}
+/*Template - Header*/
+.header_isologo {
+	width: 60px;
+	height: 60px;
+	margin-right: 3vh; 
+}
+.nav-menu-products {
+	background-color: #ffb3ba;
+	/*rgb(255,179,186)*/
+}
+.nav-menu-services {
+	background-color: #ffdfba;
+	/*rgb(255,223,186)*/
+}
+.nav-menu-gallery {
+	background-color: #ffffba;
+	/*rgb(255,255,186)*/
+}
+.nav-menu-about-me {
+	background-color: #baffc9;
+	/*rgb(186,255,201)*/
+}
+.nav-menu-contact {
+	background-color: #bae1ff;
+	/*rgb(186,225,255)*/
+}
+/*Template - Main*/
+.background-cake-pattern {
+	background-image: url("https://image.freepik.com/free-vector/cakes-sweets-seamless-pattern-background-dessert-food-cream-bakery-vector-illustration_1284-47059.jpg")
+	/*URL local: "../img/cake-pattern-1.jpg"*/
+}
+.div-background-white {
+	/*Todo pagina, para que sea legible el texto del main*/
+	background-color: #fafbfd;/*blanco con cinc*/
+	border: solid #EEd09d 5px;/*marrón madera claro, para que parezca marcos de madera*/
+	/*index.html*/
+	display: flex;
+	flex-direction: column;
+	align-self: center;
+}
+/*Template - Footer*/
+.uncolored-link {
+	text-decoration: none;
+	color: initial;
+}
+/*gallery.html*/
+.gallery-img{
+	max-width: 100%;
+}
+.gallery img{
+	/*Para que parezcan fotos instantaneas Polaroid*/
+	background-color: #fafbfd;
+	padding: 5% 5% 15% 5%;
+	width: 100%;
+	border: solid silver 1px;
+	cursor: pointer;
+}
+/*products.html*/
+.products-table {
+	background-color: #fafbfd;/*blanco con cinc*/
+	border: solid #EEd09d 2px;/*marrón madera claro, para que parezca marcos de madera*/
+}
+.products-img {
+	max-width: 13vw;
+}
+/*services.html*/
+.carousel-inner img {
+  margin: auto;
+  max-width: 30%;
+}
+.carousel-border {
+	border: solid 1px silver;
+}
+/* Device: Tablet */
+@media only screen and (max-width: 768px) {
+	.gridAreas {
+		grid-template-rows: 100px 1fr 1fr 1fr 75px;
+		grid-template-columns: 20% auto;
+	}
+	.item {
+		background-color: #f4f4f2;
+	}
+}
